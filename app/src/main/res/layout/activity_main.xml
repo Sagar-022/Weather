@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.allison.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="1_click_weather"
+        android:fontFamily="veranda"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:id="@+id/activity_main_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Temp form"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:fontFamily="veranda"
+            />
+        <RadioGroup
+            android:id="@+id/radio_unit"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/activity_main_celcius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Celsius"
+                android:fontFamily="veranda"
+                android:textSize="18dp"
+                />
+            <RadioButton
+                android:id="@+id/activity_main_fahrenheit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18dp"
+                android:fontFamily="veranda"
+                android:text="Fahrenheit"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtCity"
+            android:text="Enter Place"
+            android:textSize="24dp"
+            android:fontFamily="veranda"
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/activity_main_go"
+            android:layout_width="wrap_content"
+            android:text="GO"
+            android:fontFamily="veranda"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

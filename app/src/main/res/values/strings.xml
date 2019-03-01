@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">1_click_weather</string>
+
+    <string-array name="city_list">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+
+    </string-array>
+</resources>

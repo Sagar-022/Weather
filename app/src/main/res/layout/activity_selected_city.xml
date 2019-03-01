@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.allison.SelectedCityActivity">
+
+    <TextView
+        android:id="@+id/selected_city_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="veranda"
+        android:textColor="#4f545b"
+        android:textStyle="bold"
+        android:hint="City"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/selected_city_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:fontFamily="veranda"
+            android:hint="Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/selected_city_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Time"
+            android:textStyle="bold"
+            android:fontFamily="veranda"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/selected_city_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="40 C"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:fontFamily="veranda"
+        android:textColor="#4f545b"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/selected_city_rain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:fontFamily="veranda"
+            android:text="Humadity"
+            />
+        <TextView
+            android:id="@+id/selected_city_probability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=":0%"
+            android:layout_weight="1"
+            android:fontFamily="veranda"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
